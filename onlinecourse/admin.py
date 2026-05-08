@@ -31,11 +31,9 @@ class LessonAdmin(admin.ModelAdmin):
 		list_display = ['title']
 
 # <HINT> Register Question and Choice models here
-
 admin.site.register(Course, CourseAdmin)
 admin.site.register(Lesson, LessonAdmin)
 admin.site.register(Instructor)
 admin.site.register(Learner)
-dmin.site.register(Question, QuestionAdmin)
-admin.site.register(Choice)
+admin.site.register(Question, QuestionAdmin)admin.site.register(Choice)
 admin.site.register(Submission)
